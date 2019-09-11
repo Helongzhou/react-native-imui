@@ -97,5 +97,8 @@ RCT_EXPORT_METHOD(clickScrollEnabled:(BOOL)isScroll) {
 //RCT_EXPORT_METHOD(showOrigImage:(NSString *)msgID) {
 //    [[NSNotificationCenter defaultCenter] postNotificationName:kShowOrigImageNotification object: msgID];
 //}
++ (BOOL)requiresMainQueueSetup{
+    return YES;
+}
 
 @end

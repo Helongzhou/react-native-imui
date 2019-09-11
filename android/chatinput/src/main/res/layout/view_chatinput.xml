@@ -26,8 +26,9 @@
         <FrameLayout
             android:id="@+id/imui_layout_voice"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent">
-
+            android:layout_height="match_parent"
+            android:visibility="gone">
+    <!-- 隐藏语音按钮 -->
             <ImageButton
                 android:id="@+id/imui_item_voice"
                 style="@style/ChatInputIcon"

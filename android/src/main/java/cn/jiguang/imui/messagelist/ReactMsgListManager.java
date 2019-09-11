@@ -268,7 +268,8 @@ public class ReactMsgListManager extends ViewGroupManager<SmartRefreshLayout> im
         mAdapter.setMsgLongClickListener(new MsgListAdapter.OnMsgLongClickListener<RCTMessage>() {
             @Override
             public void onMessageLongClick(RCTMessage message) {
-                showMenu(reactContext, message);
+                //隐藏长按操作列表
+                // showMenu(reactContext, message);
 //                WritableMap event = Arguments.createMap();
 //                event.putMap("message", message.toWritableMap());
 //                reactContext.getJSModule(RCTEventEmitter.class).receiveEvent(getId(), ON_MSG_LONG_CLICK_EVENT, event);

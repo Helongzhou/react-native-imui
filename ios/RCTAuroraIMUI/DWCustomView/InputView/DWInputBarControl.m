@@ -161,11 +161,11 @@
     line = [[UIView alloc]init];
     line.backgroundColor = [UIColor colorWithRed:235/255.0 green:235/255.0 blue:235/255.0 alpha:1.0];
     [_toolView addSubview:line];
-    
-    _showRecordeBtn = [[UIButton alloc]init];
-    _showRecordeBtn.tag = DWInputBarControlBtnTypeRecord;
-    [_showRecordeBtn addTarget:self action:@selector(clickControlBtn:) forControlEvents:UIControlEventTouchUpInside];
-    [_toolView addSubview:_showRecordeBtn];
+    //隐藏语音按钮
+    // _showRecordeBtn = [[UIButton alloc]init];
+    // _showRecordeBtn.tag = DWInputBarControlBtnTypeRecord;
+    // [_showRecordeBtn addTarget:self action:@selector(clickControlBtn:) forControlEvents:UIControlEventTouchUpInside];
+    // [_toolView addSubview:_showRecordeBtn];
     
     _inputGrowView = [[HPGrowingTextView alloc]init];
     _inputGrowView.backgroundColor = toolBackColor;

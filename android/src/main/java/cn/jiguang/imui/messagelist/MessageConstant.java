@@ -97,7 +97,7 @@ public class MessageConstant {
         public final static String WIDTH = "imageWidth";
         public final static String DISPLAY_NAME = "displayName";
         public final static String DURATION = "duration";
-        public final static String THUMB_PATH = "thumbPath";
+        public final static String THUMB_PATH = "url";//修改缩略图路径
         public final static String PATH = "path";
         public final static String URL = "url";
 

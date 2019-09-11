@@ -53,7 +53,8 @@ open class IMUIBaseMessageCell: UICollectionViewCell, IMUIMessageCellProtocal,Me
     self.cellGesture.addTarget(self, action: #selector(self.tapCellView))
     self.bubbleGesture.addTarget(self, action: #selector(self.tapBubbleView))
     self.bubbleGesture.cancelsTouchesInView = false
-    self.longPress.addTarget(self, action: #selector(self.longTapBubbleView(sender:)))
+    //隐藏长按操作列表
+    // self.longPress.addTarget(self, action: #selector(self.longTapBubbleView(sender:)))
     self.bubbleView.isUserInteractionEnabled = true
     self.bubbleView.addGestureRecognizer(self.bubbleGesture)
     self.bubbleView.addGestureRecognizer(self.longPress)
